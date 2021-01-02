@@ -1,0 +1,95 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+/* Variables */
+/* Templates */
+input[type=submit] {
+  display: block;
+  width: 155px;
+  height: 36px;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  font-size: 14px;
+  padding: 0 16px;
+  margin: 11px 4px;
+  text-align: center;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Links */
+nav {
+  text-align: end;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: underline;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  position: relative;
+}
+
+.logo img {
+  width: 272px;
+}
+
+.logo span {
+  color: #4285f4;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+/* Form*/
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text] {
+  width: 450px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+input[type=submit]:hover {
+  border: 1px solid #dadce0;
+}
+
+@media (max-width: 768px) {
+  main {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+/*# sourceMappingURL=styles.css.map */
